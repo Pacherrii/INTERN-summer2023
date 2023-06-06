@@ -1,0 +1,41 @@
+body{
+    background-color: green;
+}
+
+h1{
+    text-transform: uppercase;
+}
+
+h2{
+    color: aliceblue;
+}
+
+.three-box{
+    // display: flex;
+    @media (min-width:768px){
+            display: flex;
+    }
+    
+    .box-item{
+        flex: 1;
+    }
+
+        .box1{
+            // width: 50%;
+            background-color: yellow;
+            // float: left;
+        }
+        .box2{
+            // width: 25%;
+            background-color: gray;
+            // float: left;
+        }
+        .box3{
+            // width: 25%;
+            background-color: lightgrey;
+            // float: left;
+        }
+
+}
+
+
